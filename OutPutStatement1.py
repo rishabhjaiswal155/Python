@@ -26,6 +26,27 @@ print(list,tuple,set)
 
 print("---------------------------------")
 
+#print() with formatted String as argument
+name="Rishabh"
+salary=100000.0
+language="Python"
+print("Hello %s your salary is %f and favourite programming language is %s" %(name,salary,language))
+
+print("----------------------------------------------------------------------------------------------")
+
+#print() with replacement operator {} and format()
+name="Vishal"
+salary=200000.0
+language="C#"
+print("Hello {0} your salary is {1} and favourite programming language is {2}".format(name,salary,language))
+print("Hello {} your salary is {} and favourite programming language is {}".format(name,salary,language))
+print("Hello {x} your salary is {y} and favourite programming language is {z}".format(x=name,z=language,y=salary))
+
+
+
+
+
+
 
 
 
