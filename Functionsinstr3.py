@@ -1,5 +1,5 @@
 print('Abcd123'.isalnum())#True
-print('ABC'.isalnum())#False
+print('ABC'.isalnum())#True
 print('abc'.isalpha())#True
 print('Abc123'.isalpha())#False
 print('1234'.isdigit())#True
